@@ -12,7 +12,7 @@
 
 .hero {
   width: 80%;
-  max-width: 1440px;
+  max-width: 1200px;
   height: 500px;
   margin: 0 auto;
   padding: 0;
@@ -78,3 +78,47 @@
   border-radius: 8px;
   margin-top: 15px;
 }
+
+.random-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto 0;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.random-content-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.random-content {
+  display: flex;
+  justify-content: center;
+}
+
+.random-content-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.random-image {
+  border: 2px solid blue;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.random-subtext {
+  width: 100px;
+  text-align: center;
+}
+
